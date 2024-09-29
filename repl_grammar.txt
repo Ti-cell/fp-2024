@@ -1,0 +1,9 @@
+Domain is Cafe
+
+Order = Name + Price | Order + Name + Price
+Name = string
+string = char +
+char = 'a' | 'b' | ... | 'z'
+Price = number
+number = digit + '.' +
+digit = '0' | '1' | ... | '9'
