@@ -1,9 +1,11 @@
 Domain is Cafe
 
-Order = Name + Price | Order + Name + Price
-Name = string
-string = char +
-char = 'a' | 'b' | ... | 'z'
-Price = number
-number = digit + '.' +
-digit = '0' | '1' | ... | '9'
+Root = "Make" <Order> | "Cancel" <Order> | "Add" <Order>
+
+<Order> = <Name> + <Price> | <Order> + <Name> + <Price>
+<Name> = <string>
+<string> = <char> +
+<char> = 'a' | 'b' | ... | 'z'
+<Price> = <number>
+<number> = <digit> + '.' +
+<digit> = '0' | '1' | ... | '9'
