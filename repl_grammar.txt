@@ -1,11 +1,11 @@
 Domain is Cafe
 
-Root = "Make" <Order> | "Cancel" <Order> | "Add" <Order>
+Root = List | "Complete" <int> | "Cancel" <int> | "Add" <Order>
 
-<Order> = <Name> + <Price> | <Order> + <Name> + <Price>
+<Order> = <Name> + <number>
 <Name> = <string>
 <string> = <char> +
 <char> = 'a' | 'b' | ... | 'z'
-<Price> = <number>
-<number> = <digit> + '.' +
+<number> = <int>
+<int> = <digit> +
 <digit> = '0' | '1' | ... | '9'
