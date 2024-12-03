@@ -2,6 +2,8 @@
 module Lib2
     ( Query(..),
     parseQuery,
+    Order(..),
+    OrderStatus(..),
     State(..),
     emptyState,
     stateTransition

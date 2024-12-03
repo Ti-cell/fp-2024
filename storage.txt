@@ -1,0 +1,4 @@
+add latte 1
+add milk 2
+add coffee 3
+cancel 0
